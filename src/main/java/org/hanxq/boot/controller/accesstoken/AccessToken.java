@@ -79,7 +79,7 @@ public class AccessToken {
 	/**
 	 * 构建access_token
 	 */
-	private void build() {
+	public void build() {
 		CloseableHttpClient client = HttpClients.createDefault();
 
 		CloseableHttpResponse response = null;
