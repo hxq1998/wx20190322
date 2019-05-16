@@ -1,4 +1,4 @@
-package org.hanxq.boot;
+package org.hanxq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

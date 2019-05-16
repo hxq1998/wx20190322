@@ -27,7 +27,7 @@ public class UserServiceImpl implements UserService {
 	
 	private String URL = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=";
 	
-	private List<WeChartUser> users = new ArrayList<WeChartUser>();
+	private volatile List<WeChartUser> users = new ArrayList<WeChartUser>();
 	
 	/**
 	 * 构造方法来刷新user

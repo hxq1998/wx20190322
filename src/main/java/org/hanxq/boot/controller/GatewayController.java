@@ -43,7 +43,6 @@ public class GatewayController {
 	@RequestMapping(value = "/users.do",method = RequestMethod.GET )
 	@ResponseBody
 	public Object getUserList() {
-		
 		JSONObject users = userService.getUsers("user");
 		return users;
 	}
